@@ -1,0 +1,489 @@
+@font-face {
+	font-family: regular;
+	src: url(font/OPENSANS-REGULAR.ttf);
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../TAskMAster/Meposa.TTF);
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url(../TAskMAster/autoradiographicrg.ttf);
+}
+
+.check {
+	font-family: mySecondFont;
+	color:#CEB750;
+}
+
+.day {
+	font-family: mySecondFont;
+	color:#CEB750;
+}
+
+.alphav {
+	position:absolute;
+	font-family: mySecondFont;
+	font-size:12px;
+	color:#CEB750;
+	top:60px;
+	left:59px;
+}
+
+input.transparent-input{
+       background-color:transparent !important;
+       border:none !important;
+	   box-shadow:none !important;
+}
+
+body {
+	margin: 0;
+	background-image:url(../Home/BG.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	overflow:hidden;
+}
+
+select:hover {
+	cursor: pointer;
+}
+
+input[type = "submit"] {
+	cursor: pointer;
+}
+
+input {
+	font-family: mySecondFont;
+}
+
+hr {
+	margin-top: -10px;
+	color: #c3989e;
+	background-color: #c3989e;
+	height: 2px;
+}
+
+.nav-wrapper {
+	width: 100%;
+	height: 48px;
+	padding-top: 5px;
+	background-color: #e2232b;
+	display: inline-block;
+}
+
+.form-sort {
+	margin-left: 630px;
+	position: absolute;
+}
+
+.form-sort input:hover {
+	cursor: pointer;
+}
+
+.form-sort input[type = "submit"] {
+	width: 30px;
+	height: 30px;
+	background: url(img/sort.png) no-repeat;
+	background-position: center center;
+	background-size: 80% 80%;
+	border: 0;
+}
+
+.form-search {
+	margin-left: 1060px;
+	position: absolute;
+}
+
+.form-search input[type = "submit"] {
+	width: 30px;
+	height: 30px;
+	background: url(img/magnifier.png) no-repeat;
+	background-position: center center;
+	background-size: 80% 80%;
+	border: 0;	
+}
+
+.search-box {
+	width: 180px;
+	height: 34px;
+	overflow: hidden;
+}
+
+.search-box input[type = "text"] {
+	width: 164px;
+	height: 28px;
+	padding-left: 10px;
+	border-radius: 10px;
+	font-family: monospace;
+}
+
+.search-box input:focus, input.focus {
+	border: solid 3px #e46d2b;
+}
+
+.nav-option {
+	width: 180px;
+	height: 34px;
+	overflow: hidden;
+	background: url(img/select.png) no-repeat right #e2232b;
+}
+
+.nav-option select {
+	background: transparent;
+	width: 180px;
+	height: 34px;
+	padding: 5px;
+	font-size: 12px;
+	border: 0;
+	-webkit-appearance: none;
+}
+
+.kantin-peta {
+	position: relative;
+	width: 500px;
+	height: 500px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#nav {
+	list-style: none;
+	float: left;
+	width: 100%;
+	height: 48px;
+	margin: 0;
+}
+
+#nav li {
+	float: left;
+	position:relative;
+	padding-top: 10px;
+	height: 40px;
+}
+
+#nav li ul li{
+	height: 140px;
+}
+
+#data {
+	margin-top: 8px;
+}
+
+#nav ul {
+	background-color: #ffffff;
+	list-style: none;
+	position: absolute;
+	width: 750px;
+	left: -9999px;
+}
+
+#nav ul li {
+	float:none;
+}
+
+#nav li:hover ul {
+	left: 0px;
+}
+
+.borju {
+	position: absolute;
+	top: 20px;
+	left: 65px;
+}
+
+.barak {
+	position: absolute;
+	top: 30px;
+	left: 33px;
+}
+
+.bengkok {
+	position: absolute;
+	top: 367px;
+	left: 460px;
+}
+
+.cbar {
+	position: absolute;
+	top: 35px;
+	left: 85px;
+}
+
+.box {
+	position: absolute;
+	top: 12px;
+	left: 615px;
+}
+
+.boxa {
+	position: absolute;
+	top: 52px;
+	left: 615px;
+}
+
+.refref{
+	position: absolute;
+	top: 650px;
+	left: 1185px;
+}
+
+.ctim{
+	position: absolute;
+	top: 100px;
+	left: 85px;
+}
+
+.ctimtim{
+	position: absolute;
+	top: 300px;
+	left: 85px;
+}
+
+.breaked{
+	position: absolute;
+	top: 237px;
+	left: 115px;
+}
+
+.breaked img{
+	position: absolute;
+	width:90px;
+	height:20px;
+}
+
+.breakedd{
+	position: absolute;
+	top: 228px;
+	left: 225px;
+}
+
+.breakeddd{
+	font-family: mySecondFont;
+	position: absolute;
+	top: 235px;
+	left: 275px;
+}
+
+.breakedddd{
+	font-family: mySecondFont;
+	font-size:30px;
+	color:#CEB750;
+	position: absolute;
+	top: 225px;
+	left: 375px;
+}
+
+.gbar{
+	position: absolute;
+	top: 15px;
+	left: 621px;
+}
+
+.saraga{
+	position: absolute;
+	top: 50px;
+	left: 621px;
+}
+
+.sbm input{
+	position: absolute;
+	width:100px;
+	height:40px;
+	top: 423px;
+	left: 950px;
+}
+
+.sf{
+	position: absolute;
+	top: 30px;
+	left: 1010px;
+}
+
+.sr{
+	position: absolute;
+	top: 395px;
+	left: 246px;
+}
+
+.tabel {
+	position: relative;
+	border-collapse: collapse;
+	width: 100%;
+	top: 25px;
+	left:152px;
+}
+
+.kantin-container {
+	overflow: visible;
+}
+
+td{
+	width:200px;
+}
+
+.modal.modal-wide .modal-dialog {
+  width: 90%;
+}
+
+.modal-wide .modal-body {
+  width: 98%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.karakter img{
+	position:absolute;
+	width:300px;
+	height:300px;
+	top:240px;
+	left:61px;
+}
+
+.lvl{
+	position:absolute;
+	top:553px;
+	left:130px;
+}
+
+.lvltks{
+	font-family: myFirstFont;
+	color:#CEB750;
+	position:absolute;
+	top:560px;
+	left:147px;
+}
+
+.exp img{
+	position:absolute;
+	top:560px;
+	left:170px;
+}
+
+.expframe img{
+	position:absolute;
+	top:560px;
+	left:180px;
+}
+
+.expbackground img{
+	position:absolute;
+	top:560px;
+	left:180px;
+}
+
+.expfill img{
+	position:absolute;
+	width: 0px;
+	height:17px;
+	top:560px;
+	left:180px;
+}
+
+.batu img{
+	position:absolute;
+	width:400px;
+	height:300px;
+	top:503px;
+	left:1px;
+}
+
+.quest img{
+	position:absolute;
+	width:150px;
+	height:150px;
+	top:250px;
+	left:1050px;
+}
+
+.item img{
+	position:absolute;
+	width:130px;
+	height:150px;
+	top:60px;
+	left:1050px;
+}
+
+.shop img{
+	position:absolute;
+	width:140px;
+	height:150px;
+	top:440px;
+	left:1050px;
+}
+
+.task img{
+	position:absolute;
+	width:250px;
+	height:500px;
+	top:80px;
+	left:430px;
+}
+
+.daily img{
+	position:absolute;
+	width:250px;
+	height:350px;
+	top:230px;
+	left:760px;
+}
+
+.plus img{
+	position:absolute;
+	top:80px;
+	left:577px;
+}
+
+.plusplus img{
+	position:absolute;
+	top:230px;
+	left:783px;
+}
+
+.check {
+	position:absolute;
+	top:128px;
+	left:450px;
+}
+
+.day {
+	position:absolute;
+	top:273px;
+	left:780px;
+}
+
+.check table{
+	border:5px;
+}
+
+.qm{
+	position:absolute;
+	top:20px;
+	left:50px;
+}
+
+.qk{
+	position:absolute;
+	top:103px;
+	left:40px;
+}
+
+.qt{
+	position:absolute;
+	top:500px;
+	left:375px;
+}
+
+.qd{
+	position:absolute;
+	top:488px;
+	left:685px;
+}
+
+.qq{
+	position:absolute;
+	top:80px;
+	left:935px;
+}

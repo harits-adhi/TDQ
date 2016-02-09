@@ -1,0 +1,11 @@
+
+(function(compId){var _=null,y=true,n=false,x1='6.0.0',x2='5.0.0',x4='rgba(0,0,0,0)',lf='left',h='height',e14='${a1}',e13='${Layer-3}',e12='${a2}',w='width',e11='${Layer-1}',tp='top',x3='6.0.0.400',x10='rgba(255,255,255,1)',g='image',i='none';var g6='Layer-1.png',g8='a1.png',g5='Langit.png',g7='a2.png',g9='Layer-3.png';var im='images/',aud='media/',vid='media/',js='js/',fonts={},opts={'gAudioPreloadPreference':'auto','gVideoPreloadPreference':'auto'},resources=[],scripts=[],symbols={"stage":{v:x1,mv:x2,b:x3,stf:w,cg:i,rI:n,cn:{dom:[{id:'Langit',t:g,r:['-17px','-28px','993px','569px','auto','auto'],f:[x4,im+g5,'0px','0px']},{id:'Layer-1',t:g,r:['390px','53px','540px','549px','auto','auto'],f:[x4,im+g6,'0px','0px'],filter:[0,0,1,0.7,0,0,0,0,"rgba(0,0,0,0)",0,0,0]},{id:'a2',t:g,r:['-218px','53px','768px','105px','auto','auto'],o:'0.84615384615385',f:[x4,im+g7,'0px','0px']},{id:'a1',t:g,r:['342px','295px','813px','118px','auto','auto'],f:[x4,im+g8,'0px','0px']},{id:'Layer-3',t:g,r:['241px','269px','639px','357px','auto','auto'],f:[x4,im+g9,'0px','0px']}],style:{'${Stage}':{isStage:true,r:['null','null','960px','600px','auto','auto'],overflow:'hidden',f:[x10]}}},tt:{d:15000,a:y,data:[["eid27",w,0,0,"linear",e11,'531px','531px'],["eid25","filter.saturate",0,0,"linear",e11,'0.8','0.8'],["eid23",tp,0,0,"linear",e11,'53px','53px'],["eid49",lf,0,15000,"linear",e12,'-206px','-218px'],["eid46",lf,0,15000,"linear",e13,'166px','241px'],["eid26",lf,0,15000,"linear",e11,'362px','390px'],["eid48",w,0,0,"linear",e12,'768px','768px'],["eid47",lf,0,15000,"linear",e14,'314px','342px'],["eid24",h,0,0,"linear",e11,'569px','569px']]}}};AdobeEdge.registerCompositionDefn(compId,symbols,fonts,scripts,resources,opts);})("EDGE-286545974");
+(function($,Edge,compId){var Composition=Edge.Composition,Symbol=Edge.Symbol;Edge.registerEventBinding(compId,function($){
+//Edge symbol: 'stage'
+(function(symbolName){Symbol.bindElementAction(compId,symbolName,"${Stage}","mousemove",function(sym,e){this.onMove(e.pageX,e.pageY);});
+//Edge binding end
+Symbol.bindElementAction(compId,symbolName,"document","compositionReady",function(sym,e){this.onMove=function(posX,posY){timelinecontrol=Number(posX)*10;console.log(timelinecontrol);sym.stop(timelinecontrol);}});
+//Edge binding end
+})("stage");
+//Edge symbol end:'stage'
+})})(AdobeEdge.$,AdobeEdge,"EDGE-286545974");
